@@ -6,7 +6,6 @@
     ":enableVulnerabilityAlertsWithLabel(security)",
     ":labels(dependencies)",
     ":maintainLockFilesWeekly",
-    ":pinAllExceptPeerDependencies",
     ":reviewer(andreilgeorgescu)",
     ":semanticCommits",
     ":separateMultipleMajorReleases",
