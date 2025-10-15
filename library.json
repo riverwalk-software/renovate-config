@@ -1,0 +1,4 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": ["github>riverwalk-software/renovate-config:base", ":pinOnlyDevDependencies"]
+}
