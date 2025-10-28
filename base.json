@@ -3,7 +3,6 @@
   "extends": [
     "config:best-practices",
     ":disableRateLimiting",
-    ":labels(dependencies)",
     ":enableVulnerabilityAlertsWithLabel(security)",
     ":maintainLockFilesWeekly",
     ":reviewer(andreilgeorgescu)",
