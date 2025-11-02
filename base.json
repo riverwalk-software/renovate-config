@@ -94,7 +94,8 @@
         "@tanstack/react-router",
         "@tanstack/react-router-devtools",
         "@tanstack/react-start"
-      ]
+      ],
+      "minimumReleaseAge": "3 days"
     },
     {
       "groupName": "TanStack Query",
