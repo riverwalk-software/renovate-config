@@ -16,21 +16,22 @@
   "rollbackPrs": true,
   "packageRules": [
     {
+      "groupName": "Astro",
       "matchDatasources": ["npm"],
-      "matchPackageNames": ["@astrojs/**", "astro", "sharp"],
-      "groupName": "Astro"
+      "matchPackageNames": ["@astrojs/**", "astro", "sharp"]
     },
     {
+      "groupName": "Better Auth",
       "matchDatasources": ["npm"],
-      "matchPackageNames": ["@better-auth/**", "@polar-sh/**", "better-auth"],
-      "groupName": "Better Auth"
+      "matchPackageNames": ["@better-auth/**", "@polar-sh/**", "better-auth"]
     },
     {
+      "groupName": "Effect",
       "matchDatasources": ["npm"],
-      "matchPackageNames": ["@effect/**", "effect"],
-      "groupName": "Effect"
+      "matchPackageNames": ["@effect/**", "effect"]
     },
     {
+      "groupName": "React",
       "matchDatasources": ["npm"],
       "matchPackageNames": [
         "@types/react-dom",
@@ -39,10 +40,10 @@
         "babel-plugin-react-compiler",
         "react-dom",
         "react"
-      ],
-      "groupName": "React"
+      ]
     },
     {
+      "groupName": "shadcn",
       "matchDatasources": ["npm"],
       "matchPackageNames": [
         "@radix-ui/**",
@@ -52,22 +53,17 @@
         "shadcn",
         "tailwind-merge",
         "tw-animate-css"
-      ],
-      "groupName": "shadcn"
+      ]
     },
     {
+      "groupName": "SQLite",
       "matchDatasources": ["npm"],
-      "matchPackageNames": [
-        "@types/better-sqlite3",
-        "better-sqlite3",
-        "sqlite"
-      ],
-      "groupName": "SQLite"
+      "matchPackageNames": ["@types/better-sqlite3", "better-sqlite3", "sqlite"]
     },
     {
+      "groupName": "TypeScript",
       "matchDatasources": ["npm"],
-      "matchPackageNames": ["tsdown", "tsx", "typescript"],
-      "groupName": "TypeScript"
+      "matchPackageNames": ["tsdown", "tsx", "typescript"]
     }
   ]
 }
