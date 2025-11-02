@@ -26,9 +26,24 @@
       "matchPackageNames": ["@better-auth/**", "@polar-sh/**", "better-auth"]
     },
     {
+      "groupName": "Cloudflare",
+      "matchDatasources": ["npm"],
+      "matchPackageNames": ["@cloudflare/**", "wrangler"]
+    },
+    {
       "groupName": "Effect",
       "matchDatasources": ["npm"],
       "matchPackageNames": ["@effect/**", "effect"]
+    },
+    {
+      "groupName": "Kysely",
+      "matchDatasources": ["npm"],
+      "matchPackageNames": ["kysely", "kysely-**"]
+    },
+    {
+      "groupName": "Node",
+      "matchDatasources": ["node-version", "npm"],
+      "matchPackageNames": ["node", "@types/node"]
     },
     {
       "groupName": "React",
@@ -36,11 +51,15 @@
       "matchPackageNames": [
         "@types/react-dom",
         "@types/react",
-        "@vitejs/plugin-react",
         "babel-plugin-react-compiler",
         "react-dom",
         "react"
       ]
+    },
+    {
+      "groupName": "React Hook Form",
+      "matchDatasources": ["npm"],
+      "matchPackageNames": ["@hookform/**", "react-hook-form"]
     },
     {
       "groupName": "shadcn",
@@ -51,6 +70,7 @@
         "clsx",
         "lucide-react",
         "shadcn",
+        "sonner",
         "tailwind-merge",
         "tw-animate-css"
       ]
@@ -61,9 +81,43 @@
       "matchPackageNames": ["@types/better-sqlite3", "better-sqlite3", "sqlite"]
     },
     {
+      "groupName": "Tailwind",
+      "matchDatasources": ["npm"],
+      "matchPackageNames": ["@tailwindcss/**", "tailwindcss"]
+    },
+    {
+      "groupName": "TanStack Start",
+      "matchDatasources": ["npm"],
+      "matchPackageNames": [
+        "@tanstack/devtools-vite",
+        "@tanstack/react-devtools",
+        "@tanstack/react-router",
+        "@tanstack/react-router-devtools",
+        "@tanstack/react-start"
+      ]
+    },
+    {
+      "groupName": "TanStack Query",
+      "matchDatasources": ["npm"],
+      "matchPackageNames": [
+        "@tanstack/react-query",
+        "@tanstack/react-query-devtools"
+      ]
+    },
+    {
       "groupName": "TypeScript",
       "matchDatasources": ["npm"],
-      "matchPackageNames": ["tsdown", "tsx", "typescript"]
+      "matchPackageNames": ["tsx", "typescript"]
+    },
+    {
+      "groupName": "Vite",
+      "matchDatasources": ["npm"],
+      "matchPackageNames": ["@vitejs/**", "oxlint", "tsdown", "vite"]
+    },
+    {
+      "groupName": "XState",
+      "matchDatasources": ["npm"],
+      "matchPackageNames": ["@xstate/**", "xstate"]
     }
   ]
 }
