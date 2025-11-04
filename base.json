@@ -8,6 +8,7 @@
     ":reviewer(andreilgeorgescu)",
     ":separateMultipleMajorReleases",
     ":timezone(US/Eastern)",
+    "schedule:earlyMondays",
     "group:vite"
   ],
   "addLabels": ["{{manager}}", "{{updateType}}"],
