@@ -24,7 +24,7 @@
     {
       "groupName": "Better Auth",
       "matchDatasources": ["npm"],
-      "matchPackageNames": ["@better-auth/**", "@polar-sh/**", "better-auth"]
+      "matchPackageNames": ["@better-auth/**", "@polar-sh/**", "@types/better-sqlite3", "better-auth", "better-sqlite3", "kysely", "kysely-**", "sqlite"]
     },
     {
       "groupName": "Cloudflare",
@@ -35,11 +35,6 @@
       "groupName": "Effect",
       "matchDatasources": ["npm"],
       "matchPackageNames": ["@effect/**", "effect"]
-    },
-    {
-      "groupName": "Kysely",
-      "matchDatasources": ["npm"],
-      "matchPackageNames": ["kysely", "kysely-**"]
     },
     {
       "groupName": "Node",
@@ -75,11 +70,6 @@
         "tailwind-merge",
         "tw-animate-css"
       ]
-    },
-    {
-      "groupName": "SQLite",
-      "matchDatasources": ["npm"],
-      "matchPackageNames": ["@types/better-sqlite3", "better-sqlite3", "sqlite"]
     },
     {
       "groupName": "Tailwind",
