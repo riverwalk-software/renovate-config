@@ -47,6 +47,7 @@
       "matchPackageNames": [
         "@types/react-dom",
         "@types/react",
+        "@vitejs/plugin-react",
         "babel-plugin-react-compiler",
         "react-dom",
         "react"
@@ -104,7 +105,7 @@
     {
       "groupName": "Vite",
       "matchDatasources": ["npm"],
-      "matchPackageNames": ["@vitejs/**", "oxlint", "tsdown", "vite"]
+      "matchPackageNames": ["oxlint", "tsdown", "vite"]
     },
     {
       "groupName": "XState",
