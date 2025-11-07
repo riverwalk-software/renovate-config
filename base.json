@@ -103,6 +103,11 @@
       "matchPackageNames": ["tsx", "typescript"]
     },
     {
+      "groupName": "Uppy",
+      "matchDatasources": ["npm"],
+      "matchPackageNames": ["@uppy/**"]
+    },
+    {
       "groupName": "Vite",
       "matchDatasources": ["npm"],
       "matchPackageNames": ["oxlint", "tsdown", "vite"]
