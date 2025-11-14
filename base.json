@@ -94,7 +94,8 @@
       "matchDatasources": ["npm"],
       "matchPackageNames": [
         "@tanstack/react-query",
-        "@tanstack/react-query-devtools"
+        "@tanstack/react-query-devtools",
+        "@tanstack/react-router-ssr-query"
       ]
     },
     {
