@@ -54,11 +54,6 @@
       ]
     },
     {
-      "groupName": "React Hook Form",
-      "matchDatasources": ["npm"],
-      "matchPackageNames": ["@hookform/**", "react-hook-form"]
-    },
-    {
       "groupName": "shadcn",
       "matchDatasources": ["npm"],
       "matchPackageNames": [
@@ -76,6 +71,11 @@
       "groupName": "Tailwind",
       "matchDatasources": ["npm"],
       "matchPackageNames": ["@tailwindcss/**", "tailwindcss"]
+    },
+    {
+      "groupName": "TanStack Form",
+      "matchDatasources": ["npm"],
+      "matchPackageNames": ["@tanstack/react-form", "@tanstack/react-form-devtools"]
     },
     {
       "groupName": "TanStack Start",
