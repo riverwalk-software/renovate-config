@@ -85,6 +85,7 @@
         "@tanstack/react-devtools",
         "@tanstack/react-router",
         "@tanstack/react-router-devtools",
+        "@tanstack/react-router-ssr-query",
         "@tanstack/react-start"
       ],
       "minimumReleaseAge": "3 days"
@@ -94,8 +95,7 @@
       "matchDatasources": ["npm"],
       "matchPackageNames": [
         "@tanstack/react-query",
-        "@tanstack/react-query-devtools",
-        "@tanstack/react-router-ssr-query"
+        "@tanstack/react-query-devtools"
       ]
     },
     {
