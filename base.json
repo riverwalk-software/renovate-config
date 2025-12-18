@@ -29,7 +29,7 @@
     {
       "groupName": "Cloudflare",
       "matchDatasources": ["npm"],
-      "matchPackageNames": ["@cloudflare/**", "d1s", "wrangler"]
+      "matchPackageNames": ["@cloudflare/**", "wrangler"]
     },
     {
       "groupName": "Effect",
