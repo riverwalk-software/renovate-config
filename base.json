@@ -111,7 +111,7 @@
     {
       "groupName": "Vite",
       "matchDatasources": ["npm"],
-      "matchPackageNames": ["oxlint", "tsdown", "vite"]
+      "matchPackageNames": ["oxlint", "tsdown", "vite", "vite-plus"]
     },
     {
       "groupName": "XState",
